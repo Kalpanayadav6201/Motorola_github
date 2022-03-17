@@ -5,7 +5,9 @@
   "main": "server.js",
   "scripts": {
     "test": "jest",
-    "dev": "node server.js"
+    "dev": "node server.js",
+    "stop": "pm2 kill",
+    "start": "pm2 start server.js"
   },
   "author": "",
   "license": "ISC",
